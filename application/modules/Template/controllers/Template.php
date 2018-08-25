@@ -9,6 +9,10 @@
  	function sample_template($data = NULL){
  		$this->load->view('Template/sample_template_v', $data);
  	}
+
+ 	function admin_template($data = NULL){
+ 		$this->load->view('Template/admin_template_v', $data);
+ 	}
  }
 
  ?>
